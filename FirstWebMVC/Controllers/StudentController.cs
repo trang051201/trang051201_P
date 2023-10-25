@@ -2,9 +2,9 @@ using System.ComponentModel.Design;
 using System.Reflection.Metadata;
 using System.Collections.Specialized;
 using Microsoft.AspNetCore.Mvc;
-using DEMOMVC.Models;
+using FirstWebMVC.Models;
 
-namespace DemoMVC.Controllers
+namespace FirstWebMVC.Controllers
 {
 //Quach Kieu Trang - 2021050654
     public class StudentController : Controller
