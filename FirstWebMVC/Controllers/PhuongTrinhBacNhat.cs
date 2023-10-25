@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-namespace DemoMVC.Controllers
+namespace FirstWebMVC.Controllers
 {
     public class PhuongTrinhBacNhatController : Controller
     {
@@ -7,7 +7,7 @@ namespace DemoMVC.Controllers
         {
             return View();
         }
-//Nghiem Thi Van Anh - 2021050078
+//Quach Kieu Trang - 2021050654
 //Giai phuong trinh bac nhat
         [HttpPost]
         public IActionResult Index(double a, double b)
@@ -21,14 +21,14 @@ namespace DemoMVC.Controllers
                 {
                     ViewBag.ThongBao = "Phuong trinh vo nghiem";
                 }
-//Nghiem Thi Van Anh - 2021050078
+//Quach Kieu Trang - 2021050654
             }else
             {
                 double nghiem = -b / a;
                ViewBag.ThongBao =  $"Nghiem cua phuong trinh la x = {nghiem}";
             } 
 
-//Nghiem Thi Van Anh - 2021050078
+//Quach Kieu Trang - 2021050654
             return View();
         }
     }
