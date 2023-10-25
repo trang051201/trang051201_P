@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 namespace DEMOMVC.Models
 {
-//Nghiem Thi Van Anh - 2021050078
+//Quách Kiều Trang - 2021050654
     public class Student
     {
        [Required(ErrorMessage = "Vui long nhap Student id")]
@@ -16,4 +16,4 @@ namespace DEMOMVC.Models
     }
 }
 
-//Nghiem Thi Van Anh - 2021050078
+//Quách Kiểu Trang - 2021050654
