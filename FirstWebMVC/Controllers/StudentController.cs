@@ -6,7 +6,7 @@ using DEMOMVC.Models;
 
 namespace DemoMVC.Controllers
 {
-//Nghiem Thi Van Anh -2021050078
+//Quach Kieu Trang - 2021050654
     public class StudentController : Controller
     {
          public IActionResult Index()
@@ -20,7 +20,7 @@ namespace DemoMVC.Controllers
                 string str = "Hello " + std.StudentID + "-" + std.FullName + "-" + std.address + "-" + std.Age;
                 ViewBag.thongBao = str;
                 return View();
-//Nghiem Thi Van Anh -2021050078
+//Quach Kieu Trang - 2021050654
             }
     }
 }
