@@ -7,7 +7,7 @@ namespace DemoMVC.Controllers
         {
             return View();
         }
-//Nghiem Thi Van Anh - 2021050078
+//Quach Kieu Trang - 2021050654
 //Giai phuong trinh bac hai
         [HttpPost]
 
@@ -31,7 +31,7 @@ namespace DemoMVC.Controllers
                 ViewBag.ThongBao = $"Phuong trinh co 2 nghiem: Nghiem 1 = {nghiem1} | Nghiem 2 = {nghiem2}";
             }
             
-//Nghiem Thi Van Anh - 2021050078
+//Quach Kieu Trang - 2021050654
             return View();
         }
 
