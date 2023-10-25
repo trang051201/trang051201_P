@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <Title>Quách Kiều Trang - MSV 2021050564</Title> 
+    
+<body>
+      <h1>Quách Kiều Trang - 2021050564</h1>
+
+     <div id="result"></div>
+
+      <script>// nhận thông báo sự kiện do máy chủ gửi
+      if(typeof(EventSource) !== "undefined") {
+        var source = new EventSource("demo_sse.php");
+  //Tạo một đối tượng EventSource mới và chỉ định URL của trang gửi các bản cập nhật (trong ví dụ này là "demo_sse.php")
+        source.onmessage = function(event) {
+  //Mỗi lần nhận được bản cập nhật, sự kiện onmessage sẽ xảy ra
+          document.getElementById("result").innerHTML += event.data + "<br>";
+  //Khi xảy ra sự kiện onmessage, hãy đưa dữ liệu nhận được vào phần tử có id="result"
+   
+        };
+      } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support server-sent events...";
+      }
+      </script>
+
+
+</body>
+</html>
