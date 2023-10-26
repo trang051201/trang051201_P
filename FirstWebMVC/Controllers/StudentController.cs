@@ -1,11 +1,7 @@
-using System.ComponentModel.Design;
-using System.Reflection.Metadata;
-using System.Collections.Specialized;
-using Microsoft.AspNetCore.Mvc;
-using FirstWebMVC.Models;
 
-namespace FirstWebMVC.Controllers
-{
+using Microsoft.AspNetCore.Mvc;
+namespace FirstWebMVC.Controllers;
+
 //Quach Kieu Trang - 2021050654
     public class StudentController : Controller
     {
@@ -23,4 +19,4 @@ namespace FirstWebMVC.Controllers
 //Quach Kieu Trang - 2021050654
             }
     }
-}
+
