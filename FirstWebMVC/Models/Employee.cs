@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-//Nghiem Thi Van Anh -2021050078
+//Quach Kieu trang - 2021050654
 namespace DemoMVC.Models
 {
     public class Employee 
@@ -8,6 +8,6 @@ namespace DemoMVC.Models
         public int HeSoLuong { get; set; } 
         public int LuongCB { get; set; }
         public int PhuCap { get; set; }
-    //Nghiem Thi Van Anh -2021050078
+    //Quach kieu trang - 2021050654
     }
 }
