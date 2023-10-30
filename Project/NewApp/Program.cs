@@ -12,7 +12,6 @@ internal class Program
             {
                 System.Console.Write("n = ");
                 n = Convert.ToInt32(Console.ReadLine());
-        //Nghiem Thi Van Anh -2021050078
             }
             catch
             {
@@ -39,8 +38,7 @@ internal class Program
 
         string fullname = null;
         System.Console.WriteLine($"Nhap ten hoc sinh can thay doi: {fullname}");
-        fullname = Console.ReadLine();
-    //Nghiem Thi Van Anh -2021050078
+        fullname = Console.ReadLine()
         for(int i = 0; i < studentList.Count; i++)
         {   
             Student std = (Student) studentList[i];
@@ -55,7 +53,6 @@ internal class Program
                 System.Console.WriteLine("Khong co hoc sinh nay!");
                 break;
             }
-//Nghiem Thi Van Anh -2021050078
         }
 
         foreach(Student std in studentList)
