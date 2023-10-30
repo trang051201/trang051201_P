@@ -7,7 +7,7 @@ namespace DemoMVC.Controllers
         {
             return View();
         }
-//Quách kiều trang - 2021050654
+//Quách kiều trang - 2021050654. 
 //Giai phuong trinh bac nhat
         [HttpPost]
         public IActionResult Index(double a, double b)
