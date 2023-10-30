@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using DemoMVC.Models;
 
+// home-controller
 namespace DemoMVC.Controllers;
 
 public class HomeController : Controller

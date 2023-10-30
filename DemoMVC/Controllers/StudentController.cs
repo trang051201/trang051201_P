@@ -6,7 +6,7 @@ using DEMOMVC.Models;
 
 namespace DemoMVC.Controllers
 {
-//Quách kiều trang - 2021050654
+//Quách kiều trang - 2021050654 -student-controller
     public class StudentController : Controller
     {
          public IActionResult Index()
