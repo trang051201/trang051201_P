@@ -5,7 +5,7 @@ namespace DemoMVC.Controllers
 {
     public class DemoController : Controller
     {
-        //khai bao cac phuong thuc
+        //khai bao cac phuong thuc.
          public IActionResult Index()
             {
                 return View();
