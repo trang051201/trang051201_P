@@ -7,7 +7,7 @@ using DemoMVC.Models;
 
 namespace DemoMVC.Controllers
 {
-//Quách kiều trang - 2021050654
+//Quách kiều trang - 2021050654.
     public class EmployeeController : Controller
     {
          public IActionResult Index()
