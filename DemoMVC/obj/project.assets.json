@@ -10,7 +10,7 @@
   "packageFolders": {
     "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
-  "project": {
+  "project": { 
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "D:\\trang051201_P\\DemoMVC\\DemoMVC.csproj",
