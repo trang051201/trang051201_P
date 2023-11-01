@@ -16,4 +16,4 @@ namespace DEMOMVC.Models
     }
 }
 
-//Quách kiều trang - 2021050654
+//Quách kiều trang - 2021050654.
