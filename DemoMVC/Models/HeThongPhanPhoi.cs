@@ -1,12 +1,12 @@
 namespace DemoMVC.Models
 {
-//Nghiem Thi Van Anh -2021050078
+//Quách kiều trang-2021050654
     public class HeThongPhanPhoi
     {
-//Nghiem Thi Van Anh -2021050078
+//Quách kiều trang-2021050654
         public string MaHTPP { get; set; }
         public string TenHTPP { get; set; }
     }
 }
 
-//Nghiem Thi Van Anh -2021050078
+//Quách kiều trang-2021050654

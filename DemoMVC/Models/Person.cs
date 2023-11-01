@@ -1,6 +1,6 @@
 namespace DemoMVC.Models
 {
-    //Nghiem Thi Van Anh - MSV : 2021050078
+    //Quách kiều trang-2021050654
     public class Person
     {
         public string PersonID { get; set; }
@@ -8,4 +8,4 @@ namespace DemoMVC.Models
         public string Address { get; set; }
     }
 }
-  //Nghiem Thi Van Anh - MSV : 2021050078
+  //Quách kiều trang-2021050654

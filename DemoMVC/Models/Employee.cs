@@ -8,6 +8,6 @@ namespace DemoMVC.Models
         public int HeSoLuong { get; set; } 
         public int LuongCB { get; set; }
         public int PhuCap { get; set; }
-    //Quách kiều trang - 2021050654. 
+    //Quách kiều trang - 2021050654 
     }
 }
