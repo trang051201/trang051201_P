@@ -42,4 +42,4 @@ namespace DemoMVC.Migrations
 #pragma warning restore 612, 618
         }
     }
-}
+} 

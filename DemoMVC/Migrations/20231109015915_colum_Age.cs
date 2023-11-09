@@ -26,4 +26,4 @@ namespace DemoMVC.Migrations
                 table: "Person");
         }
     }
-}
+} 
