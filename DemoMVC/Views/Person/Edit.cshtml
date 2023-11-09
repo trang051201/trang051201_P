@@ -1,9 +1,8 @@
 @model DemoMVC.Models.Person
-
+<!--Quach kieu trang-2021050654-->
 @{
     ViewData["Title"] = "Edit";
 }
-<!--Quách Kiều Trang - 2021050654-->
 
 <h1>Edit</h1>
 
@@ -16,16 +15,21 @@
             <input type="hidden" asp-for="PersonID" />
             <div class="form-group">
                 <label asp-for="FullName" class="control-label"></label>
-                <input asp-for="FullName" class="form-control" />
+                <input asp-for="FullName" class="form-control w3-round-large w3-input w3-border w3-border-yellow" />
                 <span asp-validation-for="FullName" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Age" class="control-label"></label>
+                <input asp-for="Age" class="form-control w3-round-large w3-input w3-border w3-border-yellow" />
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="Address" class="control-label"></label>
-                <input asp-for="Address" class="form-control" />
+                <input asp-for="Address" class="form-control w3-round-large w3-input w3-border w3-border-yellow" />
                 <span asp-validation-for="Address" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-primary w3-yellow" />
             </div>
         </form>
     </div>
@@ -34,8 +38,7 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
-
+<!--Quach kieu trang-2021050654-->
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
-<!--Quách Kiều Trang - 2021050654-->
