@@ -7,23 +7,22 @@ using DemoMVC.Models;
 
 namespace DemoMVC.Controllers
 {
-//Quách kiều trang - 2021050654.
+//Quách Kiều Trang 2021050654
     public class EmployeeController : Controller
     {
          public IActionResult Index()
             {
                 return View();
-//Quách kiều trang - 2021050654
+//Quách Kiều Trang 2021050654
             }
             [HttpPost]
          public IActionResult Index(Employee emp)
             {
-
-                int TinhLuong = (emp.LuongCB) *  (emp.HeSoLuong) +emp.PhuCap;
-                string str1 = "FullName: " + " "+ emp.FullName + " " + "Luong: " + TinhLuong + "VND";
-                ViewBag.KetQuaTinhLuong = str1;
+//Quách Kiều Trang 2021050654
+                string str = emp.FullName + "_" + emp.EmployeeID + "_" +"_"+ emp.Address; 
+                ViewBag.KetQua = str;
                 return View();
-//Quách kiều trang - 2021050654
+//Quách Kiều Trang 2021050654
             }
     }
 }

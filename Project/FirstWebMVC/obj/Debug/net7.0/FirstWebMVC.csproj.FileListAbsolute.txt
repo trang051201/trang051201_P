@@ -35,3 +35,13 @@ E:\client\trang051201_P\FirstWebMVC\obj\Debug\net7.0\refint\FirstWebMVC.dll
 E:\client\trang051201_P\FirstWebMVC\obj\Debug\net7.0\FirstWebMVC.pdb
 E:\client\trang051201_P\FirstWebMVC\obj\Debug\net7.0\FirstWebMVC.genruntimeconfig.cache
 E:\client\trang051201_P\FirstWebMVC\obj\Debug\net7.0\ref\FirstWebMVC.dll
+D:\trang051201_P\Project\FirstWebMVC\obj\Debug\net7.0\FirstWebMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\trang051201_P\Project\FirstWebMVC\obj\Debug\net7.0\FirstWebMVC.AssemblyInfoInputs.cache
+D:\trang051201_P\Project\FirstWebMVC\obj\Debug\net7.0\FirstWebMVC.AssemblyInfo.cs
+D:\trang051201_P\Project\FirstWebMVC\obj\Debug\net7.0\FirstWebMVC.csproj.CoreCompileInputs.cache
+D:\trang051201_P\Project\FirstWebMVC\obj\Debug\net7.0\FirstWebMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\trang051201_P\Project\FirstWebMVC\obj\Debug\net7.0\FirstWebMVC.RazorAssemblyInfo.cache
+D:\trang051201_P\Project\FirstWebMVC\obj\Debug\net7.0\FirstWebMVC.RazorAssemblyInfo.cs
+D:\trang051201_P\Project\FirstWebMVC\obj\Debug\net7.0\FirstWebMVC.dll
+D:\trang051201_P\Project\FirstWebMVC\obj\Debug\net7.0\refint\FirstWebMVC.dll
+D:\trang051201_P\Project\FirstWebMVC\obj\Debug\net7.0\FirstWebMVC.pdb

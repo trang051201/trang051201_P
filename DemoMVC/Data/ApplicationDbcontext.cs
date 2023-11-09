@@ -1,12 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using DemoMVC.Models;
-
-namespace MvcMovie.ViewData
+namespace DemoMVC.Data
 {
-    public class ApplicationDbcontext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbcontext(DbContextOptions<ApplicationDbcontext>options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {}
-        public DbSet <Person> Person { get; set; }
+        public DbSet<Person> Person { get; set;}
+// khai báo việc ánh xạ class Person vào trong database
     }
 }

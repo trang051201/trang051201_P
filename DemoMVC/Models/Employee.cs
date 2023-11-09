@@ -1,13 +1,15 @@
 using System.ComponentModel.DataAnnotations;
-//Quách kiều trang - 2021050654
+using Microsoft.JSInterop.Infrastructure;
+//Quach Kieu Trang_2021050654
 namespace DemoMVC.Models
 {
-    public class Employee 
+//Quach Kieu Trang_2021050654
+    public class Employee : Person
     {
-        public string FullName { get; set; }
-        public int HeSoLuong { get; set; } 
-        public int LuongCB { get; set; }
-        public int PhuCap { get; set; }
-    //Quách kiều trang - 2021050654 
+        
+       public string EmployeeID  { get; set; }
+       public int Age  { get; set; }
+       
+//Quach Kieu Trang_2021050654
     }
 }

@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DemoMVC.Models
 {
-    [Table("Persons")]
-    //Quách kiều trang-2021050654
+    [Table("Person")]
+    //Quach Kieu Trang_2021050654
     public class Person
     {
         [Key]
@@ -13,4 +13,4 @@ namespace DemoMVC.Models
         public string Address { get; set; }
     }
 }
-  //Quách kiều trang-2021050654
+  //Quach Kieu Trang_2021050654
